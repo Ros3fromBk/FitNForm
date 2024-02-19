@@ -9,8 +9,7 @@ CREATE TABLE excercises (
   name VARCHAR(255) NOT NULL,
   targeted_muscles TEXT,
   body_parts TEXT,
-  added_to_routine BOOLEAN DEFAULT false,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+  added_to_routine BOOLEAN DEFAULT false
+  -- created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- SELECT * FROM excercises 
